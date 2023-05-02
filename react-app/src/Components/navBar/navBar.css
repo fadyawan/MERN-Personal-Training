@@ -1,0 +1,7 @@
+.navBarButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-left: 5rem;
+}
