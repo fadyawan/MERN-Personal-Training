@@ -1,7 +1,19 @@
-.navBarButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.5rem;
-    margin-left: 5rem;
+bar {
+    paddingTop: "1.15rem";
+    backgroundColor: "#fff";
+}
+
+logo {
+    width: "15%";
+}
+
+logoMobile {
+    width: "100%";
+    display: "none";
+}
+
+menuItem {
+    cursor: "pointer";
+    flexGrow: 1;
+    color:  "#4f25c8"
 }
