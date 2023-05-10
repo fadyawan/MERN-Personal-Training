@@ -1,68 +1,26 @@
-import React from 'react';
-import './navBar.css';
-import Button from '../button/button';
+import { AppBar, Toolbar, IconButton, Typography, Button } from "@material-ui/core";
+import { Stack } from '@mui/material'
 import logo from '../../logo.svg';
-import logoMobile from '../../logoMobile.svg';
-import { Toolbar, Typography } from '@material-ui/core';
-import {makeStyles} from "@material-ui/core/styles";
-
-const styles = makeStyles({
-    bar:{
-        paddingTop: "1.15rem",
-        backgroundColor: "#fff",
-        ['@media (max-width:780px)']: { 
-           flexDirection: "column"
-          }
-    },
-    logo: {
-        width: "15%", 
-        ['@media (max-width:780px)']: { 
-           display: "none"
-           }
-    },
-    logoMobile:{
-        width: "100%", 
-        display: "none", 
-        ['@media (max-width:780px)']: { 
-            display: "inline-block"
-            }
-    },
-    menuItem: {
-        cursor: "pointer", 
-        flexGrow: 1,
-        "&:hover": {
-            color:  "#4f25c8"
-        },
-        ['@media (max-width:780px)']: { 
-            paddingBottom: "1rem"    }
-    }
-})
 
 function NavBar() {
-    const classes = styles()
     return (
-            <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
-                <img src={logo} className={classes.logo}/> 
-                <img src={logoMobile} className={classes.logoMobile}/> 
-                <Typography variant="h6" className={classes.menuItem}>
-                   About
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Blog
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Careers
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Demos 
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Contact Us 
-                </Typography>
-                <Button txt="Trial Our Product"/>
+        <AppBar position="static">
+            <Toolbar>
+                <IconButton size="large" edge="start" aria-label="logo">
+                    <logo />
+                </IconButton>
+            <Typography variant="h6" componenet="div" sx={{ flexGrow: 1}}>
+                MERN PROJECT
+            </Typography>
+            <Stack direction="row" spacing={2}>
+                <Button>Home</Button>
+                <Button>About</Button>
+                <Button>React</Button>
+                <Button>Express</Button>
+            </Stack>
             </Toolbar>
+        </AppBar>
     )
 }
 
-export default NavBar
-
+export default NavBar;

@@ -1,10 +1,12 @@
-import './homePage.css';
-import NavBar from '../../Components/navBar/navBar';
+import './HomePage.css';
+import NavBar from '../../Components/NavBar/NavBar';
 
-function App() {
-  return (
-    <NavBar />
-  );
+function HomePage() {
+    return (
+        <div>
+            <NavBar />
+        </div>
+    )
 }
 
-export default App;
+export default HomePage;

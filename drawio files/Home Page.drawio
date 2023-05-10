@@ -1,13 +1,40 @@
-<mxfile host="65bd71144e">
-    <diagram id="q8PvMYJ_Ij6IuJluOqk7" name="Page-1">
-        <mxGraphModel dx="1166" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="354" y="70" width="120" height="60" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net" modified="2023-05-10T08:11:29.659Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.4" etag="_oPHl4ZGGfXy3uFxP09U" type="device">
+  <diagram id="q8PvMYJ_Ij6IuJluOqk7" name="Page-1">
+    <mxGraphModel dx="1509" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Logo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-2" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-3" value="About" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-4" value="React" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-5" value="Express" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-6" value="Image related to MERN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="760" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-7" value="Text Button for React Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-8" value="Text Button for React Page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="800" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-9" value="Footer Stuff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FuCbBGjSe_6pZvIhlxwC-12" value="Text box with quick explanation of the website + git link to clone mern personal project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="680" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
