@@ -38,9 +38,6 @@ function HomePage() {
                         reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
                     </Typography>
                 </div>
-                <br />
-                <br />
-                <br />
                 <div className='NavigationButtons'>
                     <Stack direction='row' spacing={15}>
                         <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='react-navigation-button'>
@@ -51,10 +48,6 @@ function HomePage() {
                         </Button>
                     </Stack>
                 </div>
-                <br />
-                <br />
-                <br />
-                <br />
                 <div className='NavigationButtons'>
                     <Stack direction='row' spacing={15}>
                         <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='mongo-navigation-button'>
