@@ -60,7 +60,7 @@ function NavBar() {
         <ThemeProvider theme={theme}>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton size="large" edge="start" aria-label="logo">
+                    <IconButton href='/' size="large" edge="start" aria-label="logo">
                         <FlakyIcon sx={{ color: theme.white.main }} aria-label='website-logo' />
                     </IconButton>
                     <Typography variant="h6" sx={{ flexGrow: 1 }} aria-label='website-name'>
@@ -68,8 +68,8 @@ function NavBar() {
                     </Typography>
                     <Stack direction="row" spacing={2}>
                         <div className='NavBar-Buttons'>
-                            <Button sx={{ color: theme.white.main }} aria-label='home-button'>Home</Button>
-                            <Button sx={{ color: theme.white.main }} aria-label='about-button'>About</Button>
+                            <Button href='/' sx={{ color: theme.white.main }} aria-label='home-button'>Home</Button>
+                            <Button href='/about' sx={{ color: theme.white.main }} aria-label='about-button'>About</Button>
                             <Button
                                 sx={{ color: theme.white.main }}
                                 ref={anchorRef}
@@ -106,10 +106,10 @@ function NavBar() {
                                                     aria-labelledby="composition-button"
                                                     onKeyDown={handleListKeyDown}
                                                 >
-                                                    <MenuItem onClick={handleClose}>React</MenuItem>
-                                                    <MenuItem onClick={handleClose}>Express</MenuItem> {/* handleclosereact reroute to page*/}
-                                                    <MenuItem onClick={handleClose}>Node</MenuItem> {/*handleclosenode ^*/}
-                                                    <MenuItem onClick={handleClose}>MongoDB</MenuItem> {/*handleclosemongo ^*/}
+                                                    <MenuItem component='a' href='/react' onClick={handleClose}>React</MenuItem>
+                                                    <MenuItem component='a' href='/express'  onClick={handleClose}>Express</MenuItem>
+                                                    <MenuItem component='a' href='/node'  onClick={handleClose}>Node</MenuItem>
+                                                    <MenuItem component='a' href='/mongo'  onClick={handleClose}>MongoDB</MenuItem>
                                                 </MenuList>
                                             </ClickAwayListener>
                                         </Paper>

@@ -40,20 +40,20 @@ function HomePage() {
                 </div>
                 <div className='NavigationButtons'>
                     <Stack direction='row' spacing={15}>
-                        <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='react-navigation-button'>
+                        <Button href='/react' variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='react-navigation-button'>
                             React.js is the front-end aspect of the MERN stack, click here to view the React.js Page.
                         </Button>
-                        <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='express-navigation-button'>
+                        <Button href='/express' variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='express-navigation-button'>
                             Express.js is the back-end aspect of the MERN stack, it also works with Node and MongoDB to provide the front-end with the data it needs, click here to view the Express.js Page.
                         </Button>
                     </Stack>
                 </div>
                 <div className='NavigationButtons'>
                     <Stack direction='row' spacing={15}>
-                        <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='mongo-navigation-button'>
+                        <Button href='/mongo' variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='mongo-navigation-button'>
                             MongoDB is a non SQL based database program which uses JSON like documents, click here to view the MongoDB Page.
                         </Button>
-                        <Button variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='node-navigation-button'>
+                        <Button href='/node' variant='outlined' style={{ maxWidth: '500px', minHeight: '250px' }} aria-label='node-navigation-button'>
                             Node.js is the back-end JavaScript runtime environment which helps run various JS frameworks and executes JS code outside a web browser, click here to view the Node.js Page.
                         </Button>
                     </Stack>
