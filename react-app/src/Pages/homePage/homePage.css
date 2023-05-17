@@ -1,0 +1,20 @@
+.Content {
+    padding: 5rem;
+}
+
+.MainPicture {
+    height: auto;
+    max-width: 100%;
+}
+
+.ShortText {
+    padding: 5rem;
+}
+
+.NavigationButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
